@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #272727;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: rgb(136, 243, 255);
+    filter: drop-shadow(0 0 5px rgba(0, 229, 255, 1));
+
+    background: linear-gradient(rgba(136, 243, 255, 0.1),rgba(136, 243, 255, 0.01));
+
+    box-shadow:
+        0 0 10px rgba(0, 229, 255, 0.8),
+        0 0 50px rgba(0, 229, 255, 0.6),
+        0 0 1000px rgba(0, 229, 255, 0.4),
+        0 0 2000px rgba(0, 229, 255, 0.3);
+    
+}
+
+table {
+    /* border-collapse 將線條設定為單邊線條 border-spacing 設定為0 */
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px auto;
+    background-color: transparent;
+    box-shadow:
+        0 0 5px rgba(0, 229, 255, 0.4),
+        0 0 25px rgba(0, 229, 255, 0.3),
+        0 0 50px rgba(0, 229, 255, 0.2),
+        0 0 150px rgba(0, 229, 255, 0.1);
+}
+
+table tr td {
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    background: transparent;
+    border: 50%;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    padding: 30px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    /* filter: drop-shadow(0 0 0.3rem rgb(255, 180, 235)); */
+    /* filter: drop-shadow(0 0 0.3rem rgb(170, 255, 213)); */
+
+    z-index: 5;
+
+    transition: 0.5s;
+    position: relative;
+
+    box-shadow:
+        0 0 5px rgba(0, 229, 255, 0.4),
+        0 0 25px rgba(0, 229, 255, 0.3),
+        0 0 50px rgba(0, 229, 255, 0.2),
+        0 0 150px rgba(0, 229, 255, 0.1);
+}
+
+table tr td:hover {
+    cursor: pointer;
+    color: rgba(0, 229, 255);
+    /* background: rgba(0, 255, 10, 0.5); */
+    /* 文字陰影 */
+    filter: drop-shadow(0 0 5px rgba(0, 229, 255, 1));
+
+    /* 擴散光暈 */
+    box-shadow:
+        0 0 5px rgb(0, 229, 255, 1),
+        0 0 25px rgba(0, 229, 255, 0.9),
+        0 0 50px rgba(0, 229, 255, 0.7),
+        0 0 150px rgba(0, 229, 255, 0.5);
+}
+
+
+
+.winner {
+    width: 26%;
+    height: 140px;
+    padding-top: 20px;
+    line-height: 60px;
+    margin: 30px auto;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+
+    box-shadow:
+       0 0 5px rgba(0, 229, 255, 0.4),
+       0 0 25px rgba(0, 229, 255, 0.3),
+       0 0 50px rgba(0, 229, 255, 0.2),
+       0 0 150px rgba(0, 229, 255, 0.1);
+}
+
+.winner span {
+    font-size: 40px;
+    display: block;
+}
+
+button {
+    width: 26%;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    background-color: #272727;
+    font-size: 40px;
+    font-weight: bold;
+
+    box-shadow:
+        0 0 5px rgba(0, 229, 255, 0.4),
+        0 0 25px rgba(0, 229, 255, 0.3),
+        0 0 50px rgba(0, 229, 255, 0.2),
+        0 0 150px rgba(0, 229, 255, 0.1);
+}
+
+button:hover{
+    font-size: 45px;
+    transition: 1s;
+    
+    box-shadow:
+        0 0 5px rgb(0, 229, 255, 1),
+        0 0 25px rgba(0, 229, 255, 0.9),
+        0 0 50px rgba(0, 229, 255, 0.7),
+        0 0 150px rgba(0, 229, 255, 0.5);
+}
